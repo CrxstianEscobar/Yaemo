@@ -14,31 +14,30 @@ global.__filename = function filename(pathURL = import.meta.url, rmPrefix = plat
 const __dirname = global.__dirname(import.meta.url)
 
 global.owner = [
-['5493873687620', '✨ YartexBot-MD', true],
-['542215034412'], 
-['593968263524'],
-['595976126756'],
-['59169082565'],
-['573012482597']]
+['51979901365', '☆𝑲𝒂𝒕𝒂𝒔𝒉𝒊-𝑩𝒐𝒕☆', false],
+['51906662557', '𝙊𝙬𝙣𝙚𝙧', true],  
+['5217442363122', '𝑖𝑍𝑖', true],
+['59175655964', 'Alba070503', false],
+['56974513824']]
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
 global.botNumberCode = '' //Ejemplo: +59309090909
 global.confirmCode = ''
 
-global.suittag = ['5214531287294']
+global.suittag = []
 global.mods = []
 global.prems = []
 
 //Solo desarrolladores aprobados
-global.isdev = [['542215034412'], ['593968263524'], ['573012482597'], ['5492215034412'], ['5214434703586'], ['595976126756']]
+global.isdev = [['51906662557'], ['5217442363122'], ['59175655964'], ['56974513824']]
 
 //Aqui encuentras los nombres del bot 
-global.packname = 'ʏᴀʀᴛᴇx ʙᴏᴛ ᴍᴅ ✨'
-global.author = 'ɢᴀᴛᴀ ᴅɪᴏs 🫶'
-global.wm = 'ʏᴀʀᴛᴇx ʙᴏᴛ ᴍᴅ | ɢᴀᴛᴀ ᴅɪᴏs 🫶'
-global.wm2 = '                   ʏᴀʀᴛᴇx ʙᴏᴛ ᴍᴅ ✨\n*♡º°‘¨ һᥱᥴһ᥆ ⍴᥆r 𝖿ᥲᥒs ⍴ᥲrᥲ 𝖿ᥲᥒs ¨‘°º♡*'
-global.des = 'ʏᴀʀᴛᴇx ʙᴏᴛ ᴍᴅ ✨ con tematica Yaoi/Bl hecho por fans para fans.'
+global.packname = '𝗬𝗮𝗲𝗺𝗼𝗿𝗶 𝗠𝗶𝗻𝗶 - 𝗠𝗗 🌸'
+global.author = '𝑲𝒂𝒕𝒂𝒔𝒉𝒊 𝑭𝒖𝒌𝒖𝒔𝒉𝒊𝒎𝒂 🥷'
+global.wm = '᭥𐨏𝒀𝒂𝒆𝒎𝒐𝒓𝒊 𝑴𝒊𝒏𝒊 - 𝑴𝑫᭢🌸'
+global.wm2 = '᭥𐨏𝑌𝑎𝑒𝑚𝑜𝑟𝑖𝑀𝑖𝑛𝑖-𝑀𝐷᭢🌸\n*♡º°‘¨ 𝑂𝑡𝑎𝑘𝑢-𝐿𝑖𝑣𝑒 ¨‘°º♡*'
+global.des = '𝗬𝗮𝗲𝗺𝗼𝗿𝗶 𝗠𝗶𝗻𝗶 - 𝗠𝗗 🌸.'
 
 
 //Las Versiones Y Entre Otros
@@ -47,8 +46,8 @@ global.library = 'Baileys'
 global.baileys = '@whiskeysockets/baileys'
 global.lenguaje = 'Español'
 global.menudi = ['⛶','❏','⫹⫺']
-global.dev = 'GataNina-Li'
-global.devnum = '+593 96 826 3524'
+global.dev = 'KatashiFukushima'
+global.devnum = '+51 906 662 557'
 
 // Diseños 
 global.dis = ':⁖֟⊱┈֟፝❥ '
@@ -64,13 +63,13 @@ global.imagen2 = fs.readFileSync('./storage/logos/Menu2.jpg')
 global.imagen3 = fs.readFileSync('./storage/logos/Menu3.jpg')
 global.imagen4 = fs.readFileSync('./storage/logos/Menu4.jpg')
 
-var img = 'https://telegra.ph/file/9a9a4851b638c90ebb214.jpg'; var img1 = 'https://telegra.ph/file/c248943164f6a3d28088c.jpg'; var img2 = 'https://telegra.ph/file/f14102fec3b4104e41e98.jpg'; var img3 = 'https://telegra.ph/file/5646b7540b22e8a00615e.jpg'; var img4 = 'https://telegra.ph/file/e6c11fc60a74a77789f56.jpg'; var img5 = 'https://telegra.ph/file/19af932324e24ceb896cd.jpg'
-var img6 = 'https://telegra.ph/file/e1c9c47c389b17de97a03.jpg'; var img7 = 'https://telegra.ph/file/caa791fa59111b4b4311a.jpg'; var img8 = 'https://telegra.ph/file/76fff527eeaa2b61099ca.jpg'; var img9 = 'https://telegra.ph/file/3dad91ec4eea23ea93f3d.jpg'; var img10 = 'https://telegra.ph/file/4443d4eb77531313b1f9b.jpg'
+var img = 'https://telegra.ph/file/b35df88a0257e3c8a4338.jpg'; var img1 = 'https://telegra.ph/file/cf2c839b500e45504e904.jpg'; var img2 = 'https://telegra.ph/file/8f77c0ea684dc13c704aa.jpg'; var img3 = 'https://telegra.ph/file/6d7e76af95d04b5ab4a65.jpg'; var img4 = 'https://telegra.ph/file/67e7a505724bc3bfd545b.jpg'; var img5 = 'https://telegra.ph/file/b7c6726f411c561331fbe.jpg'
+var img6 = 'https://telegra.ph/file/65f025f5c28fcbab970e2.jpg'; var img7 = 'https://telegra.ph/file/4562e944985f5efeef15c.jpg'; var img8 = 'https://telegra.ph/file/78f26ba598541e58cc2be.jpg'; var img9 = 'https://telegra.ph/file/f3e0355696042575fb404.jpg'; var img10 = 'https://telegra.ph/file/207160aa8cd04386c427e.jpg'
 global.ImgAll = [img, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10]
 
-let botImg1 = 'https://telegra.ph/file/75b8ee5025fea7ddddb41.jpg'
-let botImg2 = 'https://telegra.ph/file/95dc64c1182fd7985c838.jpg'
-let botImg3 = 'https://telegra.ph/file/e46ef0f31bc2bd030ce6b.jpg'
+let botImg1 = 'https://telegra.ph/file/7f9cbd5335d9f9a3e7860.jpg'
+let botImg2 = 'https://telegra.ph/file/eb5d478881ec2d77c0700.jpg'
+let botImg3 = 'https://telegra.ph/file/e58afaca790e45d72a3a6.jpg'
 let botImg4 = 'https://telegra.ph/file/5895dd5bee8c8c24a0966.jpg'
 let botImg5 = 'https://telegra.ph/file/96c870b2df851f15b000f.jpg'
 global.yartexImg = [botImg1, botImg2, botImg3, botImg4, botImg5]
