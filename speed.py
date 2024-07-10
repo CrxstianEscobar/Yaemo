@@ -1965,7 +1965,7 @@ def shell():
                 ((results.upload / 1000.0 / 1000.0) / args.units[1],
                  args.units[0]),
                 quiet)
-        printer("\n...................................................................................\n▶︎ POWERED BY *OOKLA*\n▶︎ Script By *AzamiJs*")
+        printer("\n...................................................................................\n▶︎ POWERED BY *OOKLA*\n▶︎ Script By *KatashiFukushima*")
     else:
         printer('Saltando la prueba de carga', quiet)
 
