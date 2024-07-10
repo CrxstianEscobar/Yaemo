@@ -5,11 +5,11 @@ sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-rel
 sudo dnf install -y git ffmpeg ImageMagick nodejs yarnpkg libwebp &&\
 sudo dnf clean all -y
 
-RUN git clone https://github.com/GataNina-Li/YartexBot-MD
+RUN git clone https://github.com/KatashiFukushima/YaemoriBot-MD
 
-WORKDIR /root/YartexBot-MD
+WORKDIR /root/YaemoriBot-MD
 
-COPY ./root/YartexBot-MD
+COPY ./root/YaemoriBot-MD
 
 RUN yarn install
 
