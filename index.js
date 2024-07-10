@@ -27,9 +27,9 @@ activeCollaborators += collaborators[key] + ', '
 }}
 activeCollaborators = activeCollaborators.slice(0, -2)
 
-cfonts.say('yartex\nbot md', {
+cfonts.say('yaemori\nbot md', {
 align: 'center',           
-gradient: ['red', 'blue'] 
+gradient: ['white', 'blue'] 
 })
 cfonts.say(description, {
 font: 'console',
