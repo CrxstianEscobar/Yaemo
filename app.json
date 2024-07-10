@@ -1,9 +1,9 @@
 {
-"name": "YartexBot-MD",
+"name": "YaemoriBot-MD",
 "description": "Bot de WhatsApp con tematica Yaoi/Bl hecho por fans para fans.",
-"repository": "https://github.com/GataNina-Li/YartexBot-MD",
+"repository": "https://github.com/KatashiFukushima/YaemoriBot-MD",
 "logo": "https://telegra.ph/file/3f00e26dcd5dcd09a68a1.jpg",
-"keywords": ["bot", "whatsapp", "whatsapp-bot", "boyslove", "yartex-bot-md", "yaoi"],
+"keywords": ["bot", "whatsapp", "whatsapp-bot", "anime", "yaemori-bot-md", "waifu"],
 "buildpacks": [
 { "url": "heroku/nodejs" },
 { "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest" },
