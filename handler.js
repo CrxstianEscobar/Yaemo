@@ -500,7 +500,7 @@ if (opts['autoread']) await this.readMessages([m.key])
 if (settingsREAD.autoread2) await this.readMessages([m.key])  
 //if (settingsREAD.autoread2 == 'true') await this.readMessages([m.key])    
 	    
-if (db.data.chats[m.chat].reaction && m.text.match(/(ción|dad|aje|oso|izar|mente|pero|tion|age|ous|ate|and|but|ify|curiosity|bot|curio|bug|syntax)/gi)) {
+if (db.data.chats[m.chat].reaction && m.text.match(/(ción|dad|aje|oso|izar|mente|pero|tion|age|ous|ate|and|but|ify|katashi|bot|yaemori|mini|bug|syntax)/gi)) {
 let emot = pickRandom(["😀", "😃", "😄", "😁", "😆", "🥹", "😅", "😂", "🤣", "🥲", "☺️", "😊", "😇", "🙂", "🙃", "😉", "😌", "😍", "🥰", "😘", "😗", "😙", "😚", "😋", "😛", "😝", "😜", "🤪", "🤨", "🧐", "🤓", "😎", "🥸", "🤩", "🥳", "😏", "😒", "😞", "😔", "😟", "😕", "🙁", "☹️", "😣", "😖", "😫", "😩", "🥺", "😢", "😭", "😤", "😠", "😡", "🤬", "🤯", "😳", "🥵", "🥶", "😶‍🌫️", "😱", "😨", "😰", "😥", "😓", "🤗", "🤔", "🫣", "🤭", "🫢", "🫡", "🤫", "🫠", "🤥", "😶", "🫥", "😐", "🫤", "😑", "🫨", "😬", "🙄", "😯", "😦", "😧", "😮", "😲", "🥱", "😴", "🤤", "😪", "😮‍💨", "😵", "😵‍💫", "🤐", "🥴", "🤢", "🤮", "🤧", "😷", "🤒", "🤕", "🤑", "🤠", "😈", "👿", "👺", "🤡", "💩", "👻", "😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾", "🫶", "👍", "✌️", "🙏", "🫵", "🤏", "🤌", "☝️", "🖕", "🙏", "🫵", "🫂", "🐱", "🤹‍♀️", "🤹‍♂️", "🗿", "✨", "⚡", "🔥", "🌈", "🩷", "❤️", "🧡", "💛", "💚", "🩵", "💙", "💜", "🖤", "🩶", "🤍", "🤎", "💔", "❤️‍🔥", "❤️‍🩹", "❣️", "💕", "💞", "💓", "💗", "💖", "💘", "💝", "🏳️‍🌈", "👊", "👀", "💋", "🫰", "💅", "👑", "🐣", "🐤", "🐈"])
 if (!m.fromMe) return this.sendMessage(m.chat, { react: { text: emot, key: m.key }})
 }
@@ -542,7 +542,7 @@ mentionedJid:[user],
 "showAdAttribution": true,
 "renderLargerThumbnail": true,
 "thumbnail": apii.data, 
-"title": `${action === 'add' ? '乂 𝖶 𝖤 𝖫 𝖢 𝖮 𝖬 𝖤 乂' : '乂 𝖠 𝖣 𝖨 𝖮 𝖲 乂'}`,
+"title": `${action === 'add' ? '🌸 𝖶 𝖤 𝖫 𝖢 𝖮 𝖬 𝖤 🌸' : '🌸 𝖠 𝖣 𝖨 𝖮 𝖲 🌸'}`,
 "body": packname,
 "containsAutoReply": true,
 "mediaType": 1, 
@@ -554,11 +554,11 @@ apii.data = ''
 break
 case 'promote':
 case 'promover':
-text = (chat.sPromote || this.spromote || conn.spromote || '@user ahora es administrador')
+text = (chat.sPromote || this.spromote || conn.spromote || '@user ahora es un admin')
 case 'demote':
 case 'degradar':
 if (!text)
-text = (chat.sDemote || this.sdemote || conn.sdemote || '@user ya no es administrador')
+text = (chat.sDemote || this.sdemote || conn.sdemote || '@user ya no es un admin')
 text = text.replace('@user', '@' + participants[0].split('@')[0])
 if (chat.detect)
 this.sendMessage(id, { text, mentions: this.parseMention(text) })
@@ -590,8 +590,8 @@ for (let cs of callUpdate) {
 if (cs.isGroup == false) {
 if (cs.status == "offer") {
 let callmsg = await this.reply(nk.from, `Hola *@${cs.from.split('@')[0]}*, Las ${cs.isVideo ? 'videollamadas' : 'llamadas'} están prohibidas, seras bloqueado`, false, { mentions: [cs.from] })
-let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Azami 👑;;;\nFN:Azami\nORG:Azami 👑\nTITLE:\nitem1.TEL;waid=18134039996:+598 9999\nitem1.X-ABLabel:Azami 👑\nX-WA-BIZ-DESCRIPTION:Solo cosas del bot.\nX-WA-BIZ-NAME:Azami 👑\nEND:VCARD`
-await this.sendMessage(cs.from, { contacts: { displayName: 'Azami 👑', contacts: [{ vcard }] }}, {quoted: callmsg})
+let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Katashi 🥷;;;\nFN:Katashi\nORG:Katashi 🥷\nTITLE:\nitem1.TEL;waid=18134039996:+598 9999\nitem1.X-ABLabel:Katashi 🥷\nX-WA-BIZ-DESCRIPTION:Solo temas del bot.\nX-WA-BIZ-NAME:Katashi 🥷\nEND:VCARD`
+await this.sendMessage(cs.from, { contacts: { displayName: 'Katashi 🥷', contacts: [{ vcard }] }}, {quoted: callmsg})
 await this.updateBlockStatus(cs.from, 'block')
 }}}
 }
@@ -605,8 +605,8 @@ let chat = global.db.data.chats[msg?.chat] || {}
 if (!chat?.delete) return 
 if (!msg) return 
 if (!msg?.isGroup) return 
-await this.sendMessage(msg.chat, {text: `🔎 BORRO UN MENSAJE
-🧃 *NOMBRE:* @${participant.split`@`[0]}\n
+await this.sendMessage(msg.chat, {text: `🔎 BORRÓ UN MENSAJE
+🌸 *NOMBRE:* @${participant.split`@`[0]}\n
 𝙿𝙰𝚁𝙰 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝚁 𝙴𝚂𝚃𝙰 𝙾𝙿𝙲𝙸𝙾́𝙽 𝚄𝚂𝙰𝚁: #disable delete`, mentions: [participant]}, {quoted: msg})
 this.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
 } catch (e) {
