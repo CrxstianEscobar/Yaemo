@@ -89,14 +89,14 @@ let botVid12 = 'https://telegra.ph/file/1c5f62544f7278899a9be.mp4' //bl
 global.yartexVid = [botVid1, botVid2, botVid3, botVid4, botVid5, botVid6, botVid7, botVid8, botVid9, botVid10, botVid11, botVid12]
   
 //Enlaces
-global.yt = 'https://youtube.com/@gatadios'
-global.ig = 'https://instagram.com/gata_dios'
-global.md = 'https://github.com/GataNina-Li/YartexBot-MD'
-global.paypal = 'https://paypal.me/OficialGD'
-global.git = 'https://github.com/GataNina-Li'
-global.email = 'theyartexbot@gmail.com'
-global.group = 'https://chat.whatsapp.com/EfWlxyVXlZ7AWVJ6sjJvyI' //Grupo ofc
-global.channel = 'https://whatsapp.com/channel/0029VabS4KD8KMqeVXXmkG1D'
+global.yt = 'https://youtube.com/@katashifukushima'
+global.ig = 'https://instagram.com/katashi_fukushima'
+global.md = 'https://github.com/KatashiFukushima/YaemoriBot-MD'
+global.paypal = 'https://paypal.me/KatashiF'
+global.git = 'https://github.com/KatashiFukushima'
+global.email = 'katashifukushima23@gmail.com'
+global.group = 'https://chat.whatsapp.com/C7LzujTmWjQ6j5CUaBPaFI' //Grupo ofc
+global.channel = 'https://whatsapp.com/channel/0029Va8GeVFAO7REOj3qnW37'
 global.linkSity = [yt, ig, md, paypal, git, channel, email]
 
 //Raíz
