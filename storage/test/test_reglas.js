@@ -1,6 +1,6 @@
 var handler = async (m, { conn, usedPrefix, command}) => {
 
-let reglas = `🐱 *Respeta las reglas de YartexBot*\n
+let reglas = `🌸 *Respeta las reglas de YaemoriBot*\n
 ⬡ No llamar
 ⬡ No hacer spam
 ⬡ Contacta al creador si es necesario
@@ -8,9 +8,9 @@ let reglas = `🐱 *Respeta las reglas de YartexBot*\n
 
 🚩 *Si no cumples con las reglas del bot, seras bloqueado.*
 
-*Puedes apoyarnos dejando una estrellita 🌟 al repositorio oficial de YartexBot.*
+*Puedes apoyarnos dejando una estrellita 🌟 al repositorio oficial de 💙 YaemoriBot. 🌸*
 
-https://github.com/GataNina-Li/YartexBot-MD`.trim()
+https://github.com/KatashiFukushima/YaemoriBot-MD`.trim()
 await conn.reply(m.chat, reglas, m, fake, )
 
 }
