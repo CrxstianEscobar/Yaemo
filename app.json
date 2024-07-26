@@ -1,8 +1,8 @@
 {
 "name": "YaemoriBot-MD",
-"description": "Bot de WhatsApp con tematica Yaoi/Bl hecho por fans para fans.",
+"description": "Bot de WhatsApp con tematica de Mini Yaemori.",
 "repository": "https://github.com/KatashiFukushima/YaemoriBot-MD",
-"logo": "https://telegra.ph/file/3f00e26dcd5dcd09a68a1.jpg",
+"logo": "https://telegra.ph/file/8059ccfba49127be14a5d.jpg",
 "keywords": ["bot", "whatsapp", "whatsapp-bot", "anime", "yaemori-bot-md", "waifu"],
 "buildpacks": [
 { "url": "heroku/nodejs" },
