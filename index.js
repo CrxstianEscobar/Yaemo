@@ -37,8 +37,8 @@ align: 'center',
 gradient: ['blue', 'magenta']
 })
 const message = `${subtitleStyle('Desarrollado por »')} ${responseStyle(author.name)}
-${subtitleStyle('Código basado por »')} ${responseStyle(collaborators.col1)}
-${subtitleStyle('Colaboradores activos »')} ${responseStyle(activeCollaborators)}
+${subtitleStyle('Código basado por »')} ${responseStyle(collaborators.col2)}
+${subtitleStyle('Colaboradores activos »')} ${responseStyle(collaborators.col1)}
 ${subtitleStyle('Versión »')} ${responseStyle(version)}`
 console.log(boxen(message, { padding: 1, margin: 1, borderStyle: 'double', borderColor: 'blue', float: 'center', }))
 
