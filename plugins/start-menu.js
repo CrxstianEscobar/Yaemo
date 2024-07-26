@@ -132,7 +132,7 @@ ${editMenu.emoji ? '*. ⋅ᘛ⁐̤ᕐ⩺┈•༶ 🔰 :･ﾟ✧:･ﾟ✧･�
 *. ⋅ ˚̣- : ✧ : – ⭒ ⊹ ⭒ – : ✧ : -˚̣⋅ .*
 
 ${editMenu.emoji ? '*. ⋅ᘛ⁐̤ᕐ⩺┈•༶ 💠 :･ﾟ✧:･ﾟ✧･ﾟ✧*' : '*. ⋅ᘛ⁐̤ᕐ⩺┈•༶:･ﾟ✧:･ﾟ✧･ﾟ✧*'}
-*. ⋅⊰ꕤ ┆* ⭔ 𝐘𝐀𝐑𝐓𝐄𝐗 𝐈𝐀
+*. ⋅⊰ꕤ ┆* ⭔ 𝐌𝐈𝐍𝐈 𝐘𝐀𝐄𝐌𝐎𝐑𝐈 - 𝐈𝐀
 *. ⋅⊰ꕤ ┆* ・・・・・・・・・・・
 *. ⋅⊰ꕤ ┆* ${_p}ʙᴀʀᴅ
 *. ⋅⊰ꕤ ┆* ${_p}ʙᴀʀᴅɪᴍɢ
@@ -417,9 +417,9 @@ mentionedJid: await conn.parseMention(menu),
 isForwarded: true,
 forwardingScore: 1,
 forwardedNewsletterMessageInfo: {
-newsletterJid: '120363302472386010@newsletter',
-newsletterName: 'YartexBot-MD ✨',
-serverMessageId: -1
+newsletterJid: '120363178367665133@newsletter',
+newsletterName: '💫👁️‍🗨️ Katashi Fukushima 🥷🏻🚀',
+serverMessageId: 100
 }}
 
 if (editMenu.imagen) {
