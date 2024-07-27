@@ -50,7 +50,7 @@ global.ftextt = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.c
 
 global.fliveLoc = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat  ? { remoteJid: "status@broadcast" } : {}) }, message: { "liveLocationMessage": { "caption":"By: " + global.wm2 ,"h": `${wm}`, 'jpegThumbnail': imagen1}}}
 
-global.fliveLoc2 = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {}) }, message: { "liveLocationMessage": { "title": "GataNina-Li","h": wm, 'jpegThumbnail': imagen1}}}
+global.fliveLoc2 = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {}) }, message: { "liveLocationMessage": { "title": "KatashiFukushima","h": wm, 'jpegThumbnail': imagen1}}}
 
 global.fliveLoc3 = { key: {participants: '0@s.whatsapp.net', 'fromMe': false, 'id': '3B64558B07848BD81108C1D14712018E'}, 'message': {'locationMessage': {'name': wm, 'jpegThumbnail': imagen1, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'}
 
@@ -72,7 +72,7 @@ global.estiloaudio = { key: {  fromMe: false, participant: "0@s.whatsapp.net", .
 
 global.fvideo = {key: { fromMe: false,participant: "0@s.whatsapp.net", ...(false ? { remoteJid: "6289643739077-1613049930@g.us" } : {}) },message: { "videoMessage": { "title": `${wm}`, "h": `Hmm`, 'seconds': '2022', 'caption': `${wm}`, 'jpegThumbnail': imagen1}}}
 
-global.fgclink = {key: {participant: "0@s.whatsapp.net", remoteJid: "0@s.whatsapp.net" }, message: { groupInviteMessage: { groupJid: "6288213840883-1616169743@g.us", inviteCode: "m", groupName: "GataNina-Li", caption: `${wm}\n      ${gatanina}`, jpegThumbnail: imagen1}}}
+global.fgclink = {key: {participant: "0@s.whatsapp.net", remoteJid: "0@s.whatsapp.net" }, message: { groupInviteMessage: { groupJid: "6288213840883-1616169743@g.us", inviteCode: "m", groupName: "KatashiFukushima", caption: `${wm}\n      ${gatanina}`, jpegThumbnail: imagen1}}}
 
 global.fproducto2 = { key: { fromMe: false, participant: "0@s.whatsapp.net", ...(false ? { remoteJid: "status@broadcast" } : {})}, message: { productMessage: { product: { productImage: { mimetype: "image/jpeg", jpegThumbnail: imagen1}, title: `${wm}`, retailerId: "YartexBot-MD", productImageCount: 1 }, businessOwnerJid: "0@s.whatsapp.net" }}}        
 
@@ -91,7 +91,7 @@ global.twa = {key: {participant: "0@s.whatsapp.net", remoteJid: "0@s.whatsapp.ne
 global.fakemek = {key: {participant: "0@s.whatsapp.net",remoteJid: "0@s.whatsapp.net"}, message: {groupInviteMessage: {groupJid: "51995386439-1616969743@g.us", inviteCode: "m",groupName: "P", caption: 'YartexBot-MD', jpegThumbnail: null}}}
 
 
-const moji = (await axios.get(`https://raw.githubusercontent.com/GataNina-Li/YartexBot-MD/main/storage/juegos/emojis.json`)).data
+const moji = (await axios.get(`https://raw.githubusercontent.com/KatashiFukushima/YaemoriBot-MD/main/storage/juegos/emojis.json`)).data
 const emoji = await moji[Math.floor(moji.length * Math.random())]
 
 var credit = 'X8KpIFJlcXVlc3RlZCBieSBDdXJpb3NpdHlCb3Rf'
