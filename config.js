@@ -55,7 +55,7 @@ global.cen1 = '✧──⭒─⊹ '
 global.cen2 = ' ⊹─⭒──✧'
 
 // Random
-global.random1 = fs.readFileSync('./storage/logos/yartex.jpeg')
+global.random1 = getRandomImageBoys
 
 //Imagenes
 global.imagen1 = fs.readFileSync('./storage/logos/Menu1.jpg')
