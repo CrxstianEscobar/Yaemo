@@ -24,7 +24,7 @@ let neww = performance.now()
 let speed = neww - old
 
 let info = `⬡ *Creador*
-GataNina-Li
+KatashiFukushima
 
 ⬡ *Contacto* 
 ${ig}
