@@ -95,11 +95,7 @@ global.md = 'https://github.com/KatashiFukushima/YaemoriBot-MD'
 global.paypal = 'https://paypal.me/KatashiF'
 global.git = 'https://github.com/KatashiFukushima'
 global.email = 'katashifukushima23@gmail.com'
-global.group = 'https://chat.whatsapp.com/KGGL6RWE7eAJRGrSn3QOYl'
-
-🙏🤗❣️
-
-https://whatsapp.com/channel/0029VaefZxt1t90Tn4rCv50X //Grupo ofc
+global.group = 'https://chat.whatsapp.com/KGGL6RWE7eAJRGrSn3QOYl'//Grupo ofc
 global.channel = 'https://whatsapp.com/channel/0029Va8GeVFAO7REOj3qnW37'
 global.linkSity = [yt, ig, md, paypal, git, channel, email]
 
