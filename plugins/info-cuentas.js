@@ -1,21 +1,21 @@
 var handler = async (m, { conn, command }) => {
 
 if (command == 'cuentas' || command == 'cuentasoficiales' || command == 'cuentasof') {
-let str = `𝖡𝗂𝖾𝗇𝗏𝖾𝗇ido/a 𝖠 𝖫𝖺𝗌 𝖢𝗎𝖾𝗇𝗍𝖺𝗌 𝖮𝖿𝗂𝖼𝗂𝖺𝗅𝖾𝗌 😻
+let str = `𝖡𝗂𝖾𝗇𝗏𝖾𝗇ido/a 𝖠 𝖫𝖺𝗌 𝖢𝗎𝖾𝗇𝗍𝖺𝗌 𝖮𝖿𝗂𝖼𝗂𝖺𝗅𝖾𝗌 🌸
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*Github Del Bot* 🌟
+💙 *Github De La Bot* 🌟
 *${md}*
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*Canal Dedicado Para Yartex* 🌻
+*Canal Dedicado Para Yaemori* 🌻
  *${channel}*\n
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*Grupo Oficial De Yartex* 👑
+*Grupo Oficial De Yaemori* 😍💙
  *${group}*\n
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*Youtube* 🐈
+*Youtube* 🥷
 ${yt}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*Instagram* 🌩
+*Instagram* 🌩📸
 ${ig}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈`
 
@@ -25,16 +25,16 @@ await conn.sendMessage(m.chat, { text: str, contextInfo: { externalAdReply: { ti
 if (command == 'grupos') {
 let text = `🔗 *Grupo oficial*
 
-> *CuriosityBot-MD*
+> *YaemoriBot-MD*
 ${group}
 
 👑 *Canales Oficiales*
 
-> *YartexBot*
+> *YaemoriBot*
 ${channel}
 
-> *INFINITY-WA*
-https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A`
+> *SpaceNight Team*
+https://whatsapp.com/channel/0029VaefZxt1t90Tn4rCv50X`
 
 conn.reply(m.chat, text, m, fake, )
 }
