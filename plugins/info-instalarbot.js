@@ -1,4 +1,4 @@
-var handler  = async (m, { conn }) => {
+/*var handler  = async (m, { conn }) => {
 
 let texto = `🚩 *Instalación de CuriosityBot*
 
@@ -73,4 +73,4 @@ handler.command = /^(instalarbot)/i
 
 export default handler
 
-const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
+const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))*/
