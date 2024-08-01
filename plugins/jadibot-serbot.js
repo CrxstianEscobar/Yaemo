@@ -8,10 +8,7 @@ El codigo de este archivo fue parchado por:
 - BrunoSobrino >> https://github.com/BrunoSobrino
 
 Contenido adaptado por:
-- GataNina-Li >> https://github.com/GataNina-Li
-- elrebelde21 >> https://github.com/elrebelde21
-- AzamiJs >> https://github.com/AzamiJs
-*/
+- KatashiFukushima >> https://github.com/KatashiFukushima*/
 
 const { useMultiFileAuthState, DisconnectReason, makeCacheableSignalKeyStore, fetchLatestBaileysVersion} = (await import('@whiskeysockets/baileys'))
 import qrcode from 'qrcode'
@@ -93,14 +90,14 @@ msgRetry,
 msgRetryCache,
 version,
 syncFullHistory: true,
-browser: mcode ? ['Ubuntu', 'Chrome', '110.0.5585.95'] : ['CuriosityBot', 'Opera', '5.0'],
+browser: mcode ? ['Ubuntu', 'Chrome', '110.0.5585.95'] : ['YaemoriBot-MD', 'Opera', '5.0'],
 defaultQueryTimeoutMs: undefined,
 getMessage: async (key) => {
 if (store) {
 const msg = store.loadMessage(key.remoteJid, key.id)
 return msg.message && undefined
 } return {
-conversation: 'CuriosityBot-MD',
+conversation: 'YaemoriBot-MD',
 }}}
 
 let conn = makeWASocket(connectionOptions)

@@ -17,7 +17,7 @@ let handler = async (m, { conn, args, usedPrefix, DevMode }) => {
 
             if (cooldowns[m.sender] && Date.now() - cooldowns[m.sender] < tiempoEspera * 1000) {
     let tiempoRestante = segundosAHMS(Math.ceil((cooldowns[m.sender] + tiempoEspera * 1000 - Date.now()) / 1000))
-    m.reply(`𝙔𝙖𝙧𝙩𝙚𝙭 𝘽𝙤𝙩 - 𝙈𝘿 🌟\n\nYa has iniciado una apuesta recientemente, tienes que esperar *${tiempoRestante}* para reglesar a jugar`)
+    m.reply(`𝒀𝒂𝒆𝒎𝒐𝒓𝒊 𝑩𝒐𝒕 - 𝑴𝑫 💙\n\nYa has iniciado una apuesta recientemente, tienes que esperar *${tiempoRestante}* para reglesar a jugar`)
     return
   }
 
@@ -31,15 +31,15 @@ let handler = async (m, { conn, args, usedPrefix, DevMode }) => {
         if (user.exp >= count * 1) {
             user.exp -= count * 1
             if (yartex > gata) {
-                conn.reply(m.chat, `𝙔𝙖𝙧𝙩𝙚𝙭 𝘽𝙤𝙩 - 𝙈𝘿 🌟\n\nVeamos que numeros tienen!\n*YartexBot* : ${yartex}\n*${username}* : ${gata}\n\n ${username}, *¡PERDISTES!* ${count} Exp`.trim(), m)
+                conn.reply(m.chat, `𝒀𝒂𝒆𝒎𝒐𝒓𝒊 𝑩𝒐𝒕 - 𝑴𝑫 💙\n\nVeamos que numeros tienen!\n*YaemoriBot* : ${yartex}\n*${username}* : ${gata}\n\n ${username}, *¡PERDISTES!* ${count} Exp`.trim(), m)
             } else if (yartex < gata) {
                 user.exp += count * 2
-                conn.reply(m.chat, `𝙔𝙖𝙧𝙩𝙚𝙭 𝘽𝙤𝙩 - 𝙈𝘿 🌟\n\nVeamos que numeros tienen!\n*YartexBot* : ${yartex}\n*${username}* : ${gata}\n\n𝙱𝙸𝙴𝙽! ${username}, *¡GANASTES!* ${count * 2} Exp`.trim(), m)
+                conn.reply(m.chat, `𝒀𝒂𝒆𝒎𝒐𝒓𝒊 𝑩𝒐𝒕 - 𝑴𝑫 💙\n\nVeamos que numeros tienen!\n*YaemoriBot* : ${yartex}\n*${username}* : ${gata}\n\n𝙱𝙸𝙴𝙽! ${username}, *¡GANASTES!* ${count * 2} Exp`.trim(), m)
             } else {
                 user.exp += count * 1
-                conn.reply(m.chat, `𝙔𝙖𝙧𝙩𝙚𝙭 𝘽𝙤𝙩 - 𝙈𝘿 🌟\n\nVeamos que numeros tienen!\n*𝙴𝙻 𝙱𝙾𝚃* : ${yartex}\n*${username}* : ${gata}\n\n *¡EMPATE!*, ${username} Obtienes ${count * 1} exp`.trim(), m)
+                conn.reply(m.chat, `𝒀𝒂𝒆𝒎𝒐𝒓𝒊 𝑩𝒐𝒕 - 𝑴𝑫 💙\n\nVeamos que numeros tienen!\n*𝙴𝙻 𝙱𝙾𝚃* : ${yartex}\n*${username}* : ${gata}\n\n *¡EMPATE!*, ${username} Obtienes ${count * 1} exp`.trim(), m)
             }
-        } else conn.reply(m.chat, `𝙔𝙖𝙧𝙩𝙚𝙭 𝘽𝙤𝙩 - 𝙈𝘿 🌟\n\n${username}, No tienes ${count} Exp para jugar!`.trim(), m)
+        } else conn.reply(m.chat, `𝒀𝒂𝒆𝒎𝒐𝒓𝒊 𝑩𝒐𝒕 - 𝑴𝑫 💙\n\n${username}, No tienes ${count} Exp para jugar!`.trim(), m)
 
 }
 

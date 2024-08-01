@@ -1,4 +1,3 @@
-//CÓDIGO ADAPTADO POR https://github.com/GataNina-Li | @gata_dios & https://github.com/AzamiJs | @Azami
 
 import fetch from 'node-fetch'
 
@@ -13,7 +12,7 @@ let fkontak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.cha
 let links = linkSity.getRandom()
 
 //FAKE
-const fload = { key : { remoteJid: 'status@broadcast', participant : '0@s.whatsapp.net' }, message: { orderMessage: { itemCount : -99999999, status: 1, surface : 1, message: `YartexBot-MD 🧃` + `\nGataNina`, orderTitle: `▮Menu ▸`, thumbnail: await (await fetch(pp)).buffer(), sellerJid: '0@s.whatsapp.net' }}}
+const fload = { key : { remoteJid: 'status@broadcast', participant : '0@s.whatsapp.net' }, message: { orderMessage: { itemCount : -99999999, status: 1, surface : 1, message: `YaemoriBot-MD 🌸` + `\nKatashiFukushima`, orderTitle: `▮Menu ▸`, thumbnail: await (await fetch(pp)).buffer(), sellerJid: '0@s.whatsapp.net' }}}
 
 m.react('🍓')
   
