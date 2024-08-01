@@ -4,7 +4,7 @@ import fs from 'fs'
 
 var handler = async (m, { conn, text, usedPrefix, command }) => {
 
-if (!text) return conn.reply(m.chat, `🎌 *Ingrese el nombre de un repositorio de github*\n\nEjemplo, !${command} CuriosityBot-MD`, m, fake, )
+if (!text) return conn.reply(m.chat, `🎌 *Ingrese el nombre de un repositorio de github*\n\nEjemplo, !${command} YaemoriBot-MD`, m, fake, )
 
 try {
 

@@ -1,6 +1,6 @@
 var handler = async (m, { conn, text, usedPrefix, command }) => {
 
-if (!text) return conn.reply(m.chat, '🎌 *Ingresa el nick (nombre)*\n\nEjemplo, !setnamebot Curiosity', m, fake, )
+if (!text) return conn.reply(m.chat, '🎌 *Ingresa el nick (nombre)*\n\nEjemplo, !setnamebot Mini Yaemori', m, fake, )
 try {
 await conn.updateProfileName(text)
 conn.reply(m.chat, '✅ *Se actualizó el nombre con éxito*', m, fake, )
