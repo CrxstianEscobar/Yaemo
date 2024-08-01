@@ -27,8 +27,8 @@ break
 if (filesDeleted === 0) {
 await conn.reply(m.chat, '🚩 *No se encontró ningún archivo que incluya la ID del chat*', m, fake, )
 } else {
-await conn.reply(m.chat, `🎌 *Se eliminaron ${filesDeleted} archivos de sesión*`, m, fake, )
-conn.reply(m.chat, `😸 *¡Hola! logras verme*`, m, fake, )
+await conn.reply(m.chat, `♻️ *Se eliminaron ${filesDeleted} archivos de sesión* 💠`, m, fake, )
+conn.reply(m.chat, `🌸 *¡Hola! ¿logras verme?* 💙`, m, fake, )
 }
 } catch (err) {
 console.error('Error al leer la carpeta o los archivos de sesión:', err)
