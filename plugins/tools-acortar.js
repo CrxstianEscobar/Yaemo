@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 
 var handler = async (m, { command, usedPrefix, conn, args }) => {
 
-if (!args[0]) return conn.reply(m.chat, '🎌 *Ingrese el enlace a acortar*\n\nEjemplo, !short https://github.com/AzamiJs/CuriosityBot-MD 1pt', m, fake, )
+if (!args[0]) return conn.reply(m.chat, '🎌 *Ingrese el enlace a acortar*\n\nEjemplo, !short https://github.com/KatashiFukushima/YaemoriBot-MD 1pt', m, fake, )
 if (!args[0].startsWith('https://')) return conn.reply(m.chat, '🚩 *El enlace debe ser https://*', m, fake, )
 
 let urllist = [ 'tinyurl', '1pt', 'cleanuri', 'kutt', 'rebrandly']
