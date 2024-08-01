@@ -1,7 +1,7 @@
 {
 "name": "YaemoriBot-MD", 
 "version": "1.0.6-beta", 
-"description": "Bot de WhatsApp con temática de Mini Yaemori.",
+"description": "Bot de WhatsApp con tematica de Mini Yaemori.",
 "main": "index.js",
 "type": "module",
     
